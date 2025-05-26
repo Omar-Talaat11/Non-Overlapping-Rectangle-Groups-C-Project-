@@ -10,13 +10,13 @@
 
 3 – Pseudocode:
 
-# Step 1: Read Rectangles from Input File
+Step 1: Read Rectangles from Input File
 for each line in the input file:
     read the line
     construct a Rectangle object from the line (x1, y1, x2, y2)
     add the rectangle to the list: rectangles[]
 
-# Step 2: Group Rectangles into Non-Overlapping Sets
+Step 2: Group Rectangles into Non-Overlapping Sets
 for each rectangle in rectangles[]:
     added_to_group = false
 
@@ -31,7 +31,7 @@ for each rectangle in rectangles[]:
         add the rectangle to this new group
         append the new group to groups[]
 
-# Step 3: Write Each Group to a Separate Output File
+Step 3: Write Each Group to a Separate Output File
 for each group in groups[]:
     create a new output file
     write all rectangles in this group to the file (using same input format)
