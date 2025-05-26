@@ -37,6 +37,8 @@ for each group in groups[]:
     write all rectangles in this group to the file (using same input format)
 
 
+
+
 4 – Results:
 | Dataset           | # Inputs | # Output Groups | Runtime (sec) | Memory (MB) |
 | ----------------- | -------- | --------------- | ------------- | ----------- |
