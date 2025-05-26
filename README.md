@@ -10,7 +10,6 @@
 
 3 – Pseudocode:
 
-Step 1: Read Rectangles from Input File
 for each line in the input file:
     read the line
     construct a Rectangle object from the line (x1, y1, x2, y2)
