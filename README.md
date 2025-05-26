@@ -3,7 +3,10 @@
 1 - Platform used: Linux
 
 2 – Flow chart:
+
+
 ![image](https://github.com/user-attachments/assets/320fcc33-ea62-451d-a304-2e120677c845)
+
 
 3 – Pseudocode:
 
