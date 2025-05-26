@@ -10,29 +10,7 @@
 
 3 – Pseudocode:
 
-for each line in the input file:
-    1-read the line
-    2-construct a Rectangle object from the line (x1, y1, x2, y2)
-    3-add the rectangle to the list: rectangles[]
-
-for each rectangle in rectangles[]:
-    1-added_to_group = false
-
-    2-for each group in groups[]:
-        -if rectangle does not overlap with any rectangle in this group:
-            1-add the rectangle to this group
-            2-added_to_group = true
-            3-break
-
-    if rectangle was not added to any group:
-        create a new group
-        add the rectangle to this new group
-        append the new group to groups[]
-
-Step 3: Write Each Group to a Separate Output File
-for each group in groups[]:
-    create a new output file
-    write all rectangles in this group to the file (using same input format)
+<pre> ``` Step 1: Read Rectangles from Input File for each line in the input file: read the line construct a Rectangle object from the line (x1, y1, x2, y2) add the rectangle to the list: rectangles[] Step 2: Group Rectangles into Non-Overlapping Sets for each rectangle in rectangles[]: added_to_group = false for each group in groups[]: if rectangle does not overlap with any rectangle in this group: add the rectangle to this group added_to_group = true break if rectangle was not added to any group: create a new group add the rectangle to this new group append the new group to groups[] Step 3: Write Each Group to a Separate Output File for each group in groups[]: create a new output file write all rectangles in this group to the file (using same input format) Input / Output Format: Each line in the file represents one rectangle: x1 y1 x2 y2 ``` </pre>
 
 
 
