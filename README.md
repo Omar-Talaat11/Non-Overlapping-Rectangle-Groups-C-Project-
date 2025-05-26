@@ -11,21 +11,26 @@
 3 – Pseudocode:
 
 for each line in input file:
+
 	read the line
 	construct a rectangle from this line
 	add the rectangle in rectangles array
 
 for each rectangle in rectangles array:
+
 	for each group in groups array:
+ 
 		check if rectangle is not overlapping with any rectangle in this group
 		add the rectangle to this group if it is not overlapping
 		remove the rectangle from rectangles array
 
 	check if rectangle is not added to any group
+ 
 		create new group
 		add rectangle to this group
 
 for each group in groups array:
+
 	write rectangles in this group in a .txt file
 
 4 – Results:
