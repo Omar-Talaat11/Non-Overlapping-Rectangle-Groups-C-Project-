@@ -18,7 +18,7 @@ for each rectangle in rectangles array:
 		add the rectangle to this group if it is not overlapping
 		remove the rectangle from rectangles array
 
-	if rectangle is not added to any group
+	check if rectangle is not added to any group
 		create new group
 		add rectangle to this group
 
@@ -50,6 +50,8 @@ for each group in groups array:
   Testing final results through creating another code that takes the output of the main code as input and validate the non-overlapping condition for each group separately.
 
 6 – Screenshots: 
+
+
 ![image](https://github.com/user-attachments/assets/c45086f6-72d4-4634-9486-ecea0ab221d1)
 ![image](https://github.com/user-attachments/assets/a3a54666-959d-4f2b-a43f-b59c9f467e60)
 ![image](https://github.com/user-attachments/assets/7597de97-a46b-4088-abb6-a8bf559c5c08)
